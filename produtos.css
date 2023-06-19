@@ -1,5 +1,5 @@
 header {
-	background: #f5ec71;
+	background: #fc6d68;
 	padding: 20px 0;
 }
 
@@ -27,6 +27,12 @@ nav a {
 	font-size: 22px;
 	text-decoration: none;
 }
+
+	nav a:hover{
+		color: #ff1403;
+		text-decoration: underline;
+	}
+
 .produtos{
 	width: 940px;
 	margin: 0% auto; 
@@ -47,6 +53,15 @@ nav a {
 
 .produtos h2{
 	font-size: 30px;
+	font-weight: bold;
+}
+
+.produtos li:hover{
+	border-color: #f81403;
+}
+
+.produtos li:active{
+	border-color: #61fd61;
 }
 .produtos-preco{
     font-size: 22px;
