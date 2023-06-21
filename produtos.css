@@ -1,5 +1,5 @@
 header {
-	background: #fc6d68;
+	background: #fa6661;
 	padding: 20px 0;
 }
 
@@ -36,6 +36,7 @@ nav a {
 .produtos{
 	width: 940px;
 	margin: 0% auto; 
+	padding: 50px;
 }
 .produtos li{
 	display: inline-block;
@@ -63,10 +64,26 @@ nav a {
 .produtos li:active{
 	border-color: #61fd61;
 }
+
+.produtos li:hover h2{
+	font-size: 34px;
+}
 .produtos-preco{
     font-size: 22px;
 	font-weight: bold;
 	margin: 10px;
 	border: 3px solid #000000;
 	border-radius: 10px;
+}
+
+footer{
+	background-color: #fca9a9;
+	text-align: center;
+	background: url(bg.jpg);
+	padding: 40px 0;
+}
+
+footer p{
+	color: white;
+	font-size: 12px;
 }
