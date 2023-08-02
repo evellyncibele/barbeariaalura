@@ -1,5 +1,5 @@
 header {
-	background: #9f38e4;
+	background: hsl(288, 97%, 70%);
 	padding: 20px 0;
 }
 
@@ -98,7 +98,7 @@ form{
 }
 
 input{
-	border: 2px solid #9f38e4;
+	border: 2px solid #4fbaec;
 	border-radius: 5px;
 
 }
@@ -106,7 +106,7 @@ input{
 
 
 input:hover{
-	border: 2px solid #4fbaec;
+	border: 2px solid #9f38e4;
 }
 
 form label{
