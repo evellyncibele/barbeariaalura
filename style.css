@@ -121,3 +121,18 @@ form input{
 	padding: 8px 50px;
 	width: 50%;
 }
+
+table{
+	margin: 20px 0 40px;
+}
+
+thead{
+	background: #9f38e4;
+	color: white;
+	font-weight: bold;
+}
+
+td{
+	border: 2px solid black;
+	padding: 15px 66px;
+}

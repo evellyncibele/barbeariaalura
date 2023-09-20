@@ -16,62 +16,58 @@
 					<li><a href="contato.html">Contato</a></li>
 				</ul>
 			</nav>
-	</header>
-
+        <div>
+    </header>
 	<main>
 		<form action="">
-			<label for="nomesobrenome">Nome e Sobrenome</label>
+			    <div>
+			    <label for="nomesobrenome">Nome e Sobrenome</label>
+			    <input type="text" id="nomesobrenome" class="input-padrão" required placeholder="Digite aqui seu nome e Sobrenome"> 
+			
+
+		<label for="email-radio"><input type="radio" value="email" id="email-radio" name="contato">email</label>
+	
+		<input type="text" id="email" class="input-padrão" required placeholder="seu email@escola.pr.gov.br">
 		
-			<input type="text" id="nomesobrenome">
-
-		<label for="email">Email</label>
-		<input type="text" id="email">
-
 		<label for="telefone">Telefone</label>
-		<input type="text" id="telefone">
+		
+		<input type="text" id="telefone" class="input-padrão" required placeholder="+xx (xx) xxxxxxxxx">
 
 		<label for="mensagem">Digite sua mensagem</label>
-	    <textarea name="" id="" cols="62" rows="10"></textarea>
+	    <textarea name="mensagem" id="mensagem" cols="62" rows="10" placeholder="digite aqui sua mensagem"></textarea>
 
-		<div>
-			<label for="contato">Como prefere o nosso contato?</label>
-
-			<input type="radio" value="email" id="email-radio" name="contato">
-			<label for="email-radio">Email</label>
-
-			<input type="radio" value="ligação" id="ligação" name="contato">
-			<label for="ligação">ligação</label>
-
-			<input type="radio" value="whatsapp" id="whatsapp-radio"  name="contato" > 
-			<label for="whatsapp">Whatsapp</label>
-        </div>
-		<label><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+	
 		
 
 		<input class="enviar" type="submit" value="Clique aqui!!">
 
 		</form>
+		<table>
+			<thead>
+				<tr>
+					<td>Dia</td>
+					<td>Horário</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Segunda</td>
+					<td>8h ~ 20h</td>
+				</tr>
+				<tr>
+					<td>Quarta</td>
+					<td>8h ~ 20h</td>
+				</tr>
+				<tr>
+					<td>Sexta</td>
+					<td>8h ~ 20h</td>
+				</tr>
+			</tbody>
+		
+		</table>
+		
 	</main>
 
-	<table>
-		<thead>
-			<tr>
-				<td>Dia</td>
-				<td>Horário</td>
-			</tr>
-		<tr>
-			<td>Segunda</td>
-			<td>8h ~ 20h</td>
-		</tr>
-		<tr>
-			<td>Quarta</td>
-			<td>8h ~ 20h</td>
-		</tr>
-		<tr>
-			<td>Sexta</td>
-			<td>8h ~ 20h</td>
-		</tr>
-	</table>
 	
 	<footer>
 
