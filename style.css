@@ -1,5 +1,5 @@
 header {
-	background: hsl(288, 97%, 70%);
+	background: #ccc;
 	padding: 20px 0;
 }
 
@@ -29,7 +29,7 @@ nav a {
 }
 
 nav a:hover{
-	color: #4fbaec;
+	color: #c78c19;
 	text-decoration: underline;
 }
 
@@ -47,7 +47,7 @@ nav a:hover{
 	margin: 0 1.5%;
 	padding: 30px 20px;
 	box-sizing: border-box;
-	border: 2px solid rgb(0, 0, 0);
+	border: 2px solid black;
 	border-radius: 10px;
 }
 
@@ -57,7 +57,7 @@ nav a:hover{
 }
 
 .produtos li:hover{
-	border-color: #9f38e4;
+	border-color: #c78c19;
 	
 }
 
@@ -66,7 +66,7 @@ nav a:hover{
 }
 
 .produtos li:active{
-	border-color: #4fbaec;
+	border-color: #088c19;
 }
 
 
@@ -98,28 +98,49 @@ form{
 }
 
 input{
-	border: 2px solid #4fbaec;
+	
 	border-radius: 5px;
 
 }
 
 
 
-input:hover{
-	border: 2px solid #9f38e4;
-}
-
 form label{
 	display: block;
 	font-size: 20px;
-	margin: 10px;
+	margin: 0 0 10px 0;
+	
 }
 
-form input{
+form .input-padrao{
 	display: block;
-	margin: 10px;
-	padding: 8px 50px;
+	margin: 0 0 20px 0;
+	padding: 10px 25px;
 	width: 50%;
+}
+
+textarea{
+	margin:0 0 20px 0;
+}
+
+.checkbox{
+	margin: 20px 0;
+}
+
+.enviar{
+	width: 40%;
+	padding: 15px 0;
+	background-color:orange ;
+	color: aquamarine;
+	font-size: 18px;
+	font-weight: bold;
+	transition: 0.5s all;
+}
+
+.enviar:hover{
+	background-color: black;
+	color: white;
+	transform: scale(1.05);
 }
 
 table{
@@ -127,12 +148,16 @@ table{
 }
 
 thead{
-	background: #9f38e4;
+	background: #555;
 	color: white;
 	font-weight: bold;
 }
 
 td{
-	border: 2px solid black;
+	border: 2px solid #000;
 	padding: 15px 66px;
+}
+/*CSS da pagina principal*/
+.banner{
+	width: 100%;
 }
